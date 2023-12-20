@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restscripts.Script2GetMethod">
+      <class name="phase3.endproject.Assignment002Demo">
         <methods>
-          <include name="GetMethodBDDStyle"/>
+          <include name="assignment002Put"/>
+          <include name="assignment002Post"/>
         </methods>
-      </class> <!-- restscripts.Script2GetMethod -->
+      </class> <!-- phase3.endproject.Assignment002Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
